@@ -1,0 +1,49 @@
+[user]
+	name = Denys Kurets
+	email = denys281@gmail.com
+[github]
+	user = denys281
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[color "branch"]
+  current = yellow reverse
+  local   = yellow
+  remote  = green
+[color "diff"]
+  meta = blue
+  frag = magenta
+  old  = red
+  new  = green
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = blue
+[alias]
+  a       = add -u
+  aa      = add --all :/
+  ap      = add -u -p
+  b       = browse
+  c       = commit -v
+  co      = checkout
+  d       = diff
+  ds      = diff --staged
+  dw      = diff --color-words
+  po      = push origin head
+  s       = status -s -b
+  sm      = submodule
+  smu     = submodule foreach git pull origin master
+  summary = "!source ~/.githelpers && weekly_summary"
+  td      = merge --no-ff
+  up      = "!git fetch upstream && git rebase upstream/master"
+  w       = whatchanged --decorate
+  wp      = whatchanged --decorate -p
+  wtf     = "!git fetch --multiple production origin && git log production/master..origin/master"
+  l = log --pretty='format:%C(yellow)%h %C(blue)%ad %C(reset)%s%C(red)%d %C(green)%an%C(reset), %C(cyan)%ar' --date=short
+
