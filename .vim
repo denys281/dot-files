@@ -1,0 +1,1 @@
+/Users/denyskurets/Projects/vim_dotfiles/vim
