@@ -13,8 +13,8 @@
 [submodule ".vim/bundle/vim-numbertoggle"]
   path = .vim/bundle/vim-numbertoggle
   url = https://github.com/jeffkreeftmeijer/vim-numbertoggle.git
-[submodule ".vim/bundle/command-t"]
-  path = .vim/bundle/command-t
+[submodule ".vim/bundle/Command-T"]
+  path = .vim/bundle/Command-T
   url = https://github.com/wincent/Command-T.git
 [submodule ".vim/bundle/vim-coffee-script"]
   path = .vim/bundle/vim-coffee-script
