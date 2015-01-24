@@ -51,16 +51,13 @@
   url = https://github.com/jelera/vim-javascript-syntax.git
 [submodule ".vim/bundle/xterm-color-table"]
   path = .vim/bundle/xterm-color-table
-  url = https://github.com/hrishunt/xterm-color-table.vim.git
+  url = https://github.com/guns/xterm-color-table.vim
 [submodule ".vim/bundle/gist-vim"]
   path = .vim/bundle/gist-vim
   url = https://github.com/mattn/gist-vim.git
 [submodule ".vim/bundle/vim-endwise"]
   path = .vim/bundle/vim-endwise
   url = https://github.com/tpope/vim-endwise
-[submodule ".vim/bundle/vim-fugitive"]
-  path = .vim/bundle/vim-fugitive
-  url = https://github.com/tpope/vim-fugitive.git
 [submodule ".vim/bundle/puppet-syntax-vim"]
   path = .vim/bundle/puppet-syntax-vim
   url = https://github.com/puppetlabs/puppet-syntax-vim.git
