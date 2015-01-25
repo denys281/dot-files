@@ -39,6 +39,18 @@ set wildmode=list:longest,full
 " set leader key to comma
 let mapleader = ","
 
+" ctrlp config
+let g:ctrlp_map = '<leader>f'
+let g:ctrlp_max_height = 30
+let g:ctrlp_working_path_mode = 0
+let g:ctrlp_match_window_reversed = 0
+
+" use silver searcher for ctrlp
+let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+
+
+map <leader>n :NERDTreeToggle<CR>
+map <leader>g :NERDTreeFocus<CR>
 let g:NumberToggleTrigger="<F2>"
 
 " put git status, column/row number, total lines, and percentage in status

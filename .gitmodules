@@ -13,9 +13,6 @@
 [submodule ".vim/bundle/vim-numbertoggle"]
   path = .vim/bundle/vim-numbertoggle
   url = https://github.com/jeffkreeftmeijer/vim-numbertoggle.git
-[submodule ".vim/bundle/Command-T"]
-  path = .vim/bundle/Command-T
-  url = https://github.com/wincent/Command-T.git
 [submodule ".vim/bundle/vim-coffee-script"]
   path = .vim/bundle/vim-coffee-script
   url = https://github.com/kchmck/vim-coffee-script.git
@@ -100,3 +97,6 @@
 [submodule ".vim/bundle/vim-rbenv"]
   path = .vim/bundle/vim-rbenv
   url = https://github.com/tpope/vim-rbenv.git
+[submodule ".vim/bundle/nerdtree"]
+  path = .vim/bundle/nerdtree
+  url = https://github.com/scrooloose/nerdtree.git
