@@ -16,8 +16,8 @@ set ts=2                          " set indent to 2 spaces
 set shiftwidth=2
 set expandtab                     " use spaces, not tab characters
 set nocompatible                  " don't need to be compatible with old vim
-set number                        " show relative line numbers
-set relativenumber
+"set relativenumber
+set number
 set showmatch                     " show bracket matches
 set ignorecase                    " ignore case in search
 set hlsearch                      " highlight all search matches
@@ -52,6 +52,13 @@ let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 map <leader>n :NERDTreeToggle<CR>
 map <leader>g :NERDTreeFocus<CR>
 let g:NumberToggleTrigger="<F2>"
+
+" RSpec.vim mappings
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
+
 
 " put git status, column/row number, total lines, and percentage in status
 set statusline=%F%m%r%h%w\ %{fugitive#statusline()}\ [%l,%c]\ [%L,%p%%]
