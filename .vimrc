@@ -54,11 +54,16 @@ map <leader>g :NERDTreeFocus<CR>
 let g:NumberToggleTrigger="<F2>"
 
 " RSpec.vim mappings
-map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>c :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
-map <Leader>a :call RunAllSpecs()<CR>
+map <Leader>t :call RunAllSpecs()<CR>
 
+" map Silver Searcher
+map <leader>a :Ag!<space>
+
+" clear the command line and search highlighting
+noremap <C-l> :nohlsearch<CR>
 
 " put git status, column/row number, total lines, and percentage in status
 set statusline=%F%m%r%h%w\ %{fugitive#statusline()}\ [%l,%c]\ [%L,%p%%]
