@@ -60,7 +60,7 @@ map <Leader>l :call RunLastSpec()<CR>
 map <Leader>t :call RunAllSpecs()<CR>
 
 " map Silver Searcher
-map <leader>a :Ag!<space>
+map <leader>a :Ag<space>
 
 " clear the command line and search highlighting
 noremap <C-l> :nohlsearch<CR>
@@ -85,3 +85,5 @@ set statusline+=%P                        " percentage of file
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
+
+set backspace=indent,eol,start
