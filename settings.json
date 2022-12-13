@@ -1,0 +1,28 @@
+{
+    "editor.fontSize": 14,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.tabSize": 2,
+    "files.autoSave": "afterDelay",
+    "files.trimTrailingWhitespace": true,
+    "editor.accessibilitySupport": "off",
+    "editor.rulers": [
+
+
+
+
+        130
+    ],
+    "editor.inlineSuggest.enabled": true,
+    "files.insertFinalNewline": true,
+    "github.copilot.advanced": {
+
+
+
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    }
+}
