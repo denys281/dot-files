@@ -2,7 +2,3 @@ Host *
   AddKeysToAgent yes
   UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519
-Host cn_util
-  HostName production-util.prod.ohio
-  ProxyCommand ssh -W %h:%p 13.59.54.113
-  User deploy
